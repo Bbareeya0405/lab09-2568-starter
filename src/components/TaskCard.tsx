@@ -19,7 +19,7 @@ export default function TaskCard({
   const deleteBtnOnClick = () => {
     deleteTaskFunc(id);
   };
-
+  
   const toggleDoneBtnOnClick = () => {
     toggleDoneTaskFunc(id);
   };
